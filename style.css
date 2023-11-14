@@ -220,11 +220,10 @@ header.shadow {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-    margin-top: 4rem;
 }
 
 .skills-img img {
-    width: 80%;
+    width: 100%;
     padding-left: 4rem;
     object-position: center;
 }
@@ -521,6 +520,7 @@ form textarea {
         --big-font: 2.7rem;
         --medium-font: 1.4rem;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -573,6 +573,7 @@ form textarea {
 
     .home {
         grid-template-columns: 0.5fr 3fr;
+        margin-bottom: -50px;
     }
 
     .home-text {
@@ -595,6 +596,7 @@ form textarea {
 
     .skills-container {
         grid-template-columns: 1fr;
+        margin-top: 2rem;
     }
 
     .skills-img img {
