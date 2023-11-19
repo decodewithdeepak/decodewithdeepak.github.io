@@ -418,6 +418,72 @@ span {
 /* Project Section End */
 
 
+/* NotesNeo Section Start */
+
+.notesneo-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.note-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.note-card:hover {
+    transform: scale(1.05);
+}
+
+.note-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.note-card-info {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.note-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.note-card p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.note-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: var(--main-color);
+    text-decoration: none;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note-card a:hover {
+    background-color: var(--hover);
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* NotesNeo Section End */
+
+
 
 .contact-form {
     display: grid;
@@ -520,7 +586,7 @@ form textarea {
         --big-font: 2.7rem;
         --medium-font: 1.4rem;
     }
-    
+
 }
 
 @media (max-width: 768px) {
