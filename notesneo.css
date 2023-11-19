@@ -1,0 +1,135 @@
+/* About Section Start */
+
+.about {
+    padding: 50px 10%;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: -6rem;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: -40px;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.about-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.about-text p {
+    font-size: var(--p-font);
+    margin-bottom: 1rem;
+}
+
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+    .about {
+        padding: 50px 5%;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .about {
+        padding: 50px 8%;
+    }
+}
+
+/* About Section End */
+
+
+/* NotesNeo Section Start */
+
+.notesneo {
+    padding: 50px 10%;
+}
+
+.notesneo-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.note-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.note-card:hover {
+    transform: scale(1.05);
+}
+
+.note-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.note-card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(6, 71, 155, 0.8);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.note-card:hover .note-card-info {
+    transform: translateY(0);
+}
+
+.note-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.note-card p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.note-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: var(--main-color);
+    text-decoration: none;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-card a:hover {
+    background-color: var(--hover);
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* NotesNeo Section End */
