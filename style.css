@@ -178,6 +178,8 @@ header.shadow {
 }
 
 
+/* About Section Start */
+
 .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -214,6 +216,11 @@ header.shadow {
     font-weight: 400;
     margin-left: 1rem;
 }
+
+/* About Section End */
+
+
+/* Skills Section Start */
 
 .skills-container {
     display: grid;
@@ -278,6 +285,11 @@ span {
     width: 80%;
 }
 
+/* Skills Section End */
+
+
+/* Services Section Start */
+
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, auto));
@@ -332,6 +344,8 @@ span {
 .services-box:hover a {
     color: #8b8a8f;
 }
+
+/* Services Section End */
 
 
 /* Project Section Start */
@@ -420,6 +434,10 @@ span {
 
 /* NotesNeo Section Start */
 
+.notesneo {
+    padding: 50px 10%;
+}
+
 .notesneo-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -493,9 +511,7 @@ span {
 
 /* NotesNeo Section End */
 
-
-
-
+/* Contact Section Start */
 .contact-form {
     display: grid;
     place-items: center;
@@ -545,6 +561,11 @@ form textarea {
     background: var(--hover);
 }
 
+/* Contact Section End */
+
+
+/* Footer Section Start */
+
 .footer {
     display: grid;
     place-items: center;
@@ -581,6 +602,10 @@ form textarea {
     color: #22cf91;
 }
 
+/* Footer Section End */
+
+
+
 /* For Mobile */
 @media (max-width: 991px) {
     header {
@@ -588,7 +613,7 @@ form textarea {
     }
 
     section {
-        padding: 50px 10%;
+        padding: 50px 4%;
     }
 }
 
