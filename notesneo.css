@@ -128,7 +128,7 @@
         grid-template-columns: 1fr;
     }
     .notesneo-content {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
     .note-card h3 {
         font-size: 0.8rem;
