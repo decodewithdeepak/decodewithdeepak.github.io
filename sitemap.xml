@@ -1,64 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://www.deepakmodi.me/</loc>
-	<lastmod>2023-12-28T18:26:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/notesneo</loc>
-	<lastmod>2023-12-28T18:26:52+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/Resume/resume.html</loc>
-	<lastmod>2023-12-28T18:26:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/zeltclone/</loc>
-	<lastmod>2023-12-28T18:26:52+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/photogrid/</loc>
-	<lastmod>2023-12-28T18:26:54+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/amazonclone/</loc>
-	<lastmod>2023-12-28T18:26:55+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/flipkartclone/</loc>
-	<lastmod>2023-12-28T18:26:55+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/bmicalculator/</loc>
-	<lastmod>2023-12-28T18:26:56+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/fanta/</loc>
-	<lastmod>2023-12-28T18:26:56+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/weather/</loc>
-	<lastmod>2023-12-28T18:26:56+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/cyberfictionclone/</loc>
-	<lastmod>2023-12-28T18:26:57+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.deepakmodi.me/magmaclone/</loc>
-	<lastmod>2023-12-28T18:26:57+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.deepakmodi.me/</loc>
+        <lastmod>2023-12-28T18:26:52+01:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/notesneo</loc>
+        <lastmod>2023-12-28T18:26:52+01:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/Resume/resume.html</loc>
+        <lastmod>2023-12-28T18:26:52+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/zeltclone/</loc>
+        <lastmod>2023-12-28T18:26:52+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/photogrid/</loc>
+        <lastmod>2023-12-28T18:26:54+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/amazonclone/</loc>
+        <lastmod>2023-12-28T18:26:55+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.deepakmodi.me/flipkartclone/</loc>
+        <lastmod>2023-12-28T18:26:55+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
