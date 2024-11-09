@@ -25,21 +25,45 @@
     align-items: center;
 }
 
-.btn.join-now {
-    display: inline-block;
-    padding: 10px 19px;
-    background-color: var(--main-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    margin-top: 20px;
-    transition: background-color 0.3s;
-    text-align: center;
+.about-text {
+    text-align: justify;
 }
 
-.btn.join-now:hover {
-    background-color: #25D366;
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 0.3rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+}
+
+/* Styles specific to each button */
+.join-now {
+    background-color: #25D366; /* WhatsApp green */
+}
+
+.download-app {
+    background-color: #007bff; /* App download blue */
 }
 
 .about-text h1 {
